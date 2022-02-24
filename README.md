@@ -2,7 +2,7 @@
 
 Commands
 
-To start Docker image - sudo docker run -p 4300:80 frontend:v2   [80 is nginx or webserver port, 4300 is browser port]
+To start Docker image - sudo docker run -p 4300:80 frontend:v2   [80 is nginx or webserver port,container port and 4300 is browser port, host port]
 
 To build Docker image - sudo docker build -t frontend:v2 .
 
